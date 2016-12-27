@@ -1,6 +1,6 @@
-FROM alpine:3.4
+FROM alpine:3.5
 
-RUN apk add --no-cache dovecot=2.2.24-r1
+RUN apk add --no-cache dovecot=2.2.27-r0
 
 VOLUME "/etc/dovecot"
 
